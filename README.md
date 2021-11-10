@@ -2,9 +2,13 @@
 
 Simple template to start `*ERN` type web apps.
 
-> npm start
-> cd client
-> npm start
+```
+
+npm start
+cd client
+npm start
+
+```
 
 __NOTE__: Vulnerability alerts are from create-react-app, NOT from the Node.js server - [GO TO SECTION](#vulnerabilities)
 
@@ -21,11 +25,15 @@ Based on this [freecodecamp.com guide.](https://www.freecodecamp.org/news/how-to
 This repo functions as a boilerplate template / quickstart for building an application with a client side GUI using React that communicates with a Node.js API server - All hosted on the same server. Uses all the steps from the [freecodecamp.com guide](https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/), up until deploying your API application to Heroku.
 
 This repo stops using the guide at this line:
-> // server/package.json
->
-> "engines": {
->  "node": "your-node-version"
-> }
+
+```
+// server/package.json
+
+"engines": {
+"node": "your-node-version"
+}
+
+```
 
 I named it __ernie__ because it is used by `*ERN` stack apps. 
 (MERN, NERN)
@@ -46,10 +54,14 @@ This package can be used with your choice of database,
 ## Usage
 
 How to start the servers, starting in the root directory:
- 
-> npm start
-> cd client
-> npm start
+
+```
+
+npm start
+cd client
+npm start
+
+```
 
 
 1. run `npm start` in the root directory. This starts the Node.js server with API using Express.
