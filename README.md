@@ -2,12 +2,10 @@
 
 Simple template to start `*ERN` type web apps.
 
-```
-
+```console
 npm start
 cd client
 npm start
-
 ```
 
 __NOTE__: Vulnerability alerts are from create-react-app, NOT from the Node.js server - [GO TO SECTION](#vulnerabilities)
@@ -26,13 +24,11 @@ This repo functions as a boilerplate template / quickstart for building an appli
 
 This repo stops using the guide at this line:
 
-```
-// server/package.json
+```json
 
 "engines": {
 "node": "your-node-version"
 }
-
 ```
 
 I named it __ernie__ because it is used by `*ERN` stack apps. 
@@ -55,12 +51,10 @@ This package can be used with your choice of database,
 
 How to start the servers, starting in the root directory:
 
-```
-
+```console
 npm start
 cd client
 npm start
-
 ```
 
 
